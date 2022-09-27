@@ -1,0 +1,20 @@
+-scheduler_kube-scheduler-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_e541886a4cda0424b9879a78869adc51_0
+72a2d8b13e1e   303ce5db0e90                      "etcd --advertise-cl…"   5 days ago   Up 5 days                         k8s_etcd_etcd-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_b4e6f0b9dc6d9f541c3ffe48339218d3_0
+a8d4e34c253f   e7c545a60706                      "kube-controller-man…"   5 days ago   Up 5 days                         k8s_kube-controller-manager_kube-controller-manager-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_ca502f16c3ba1aeb78dad1d84922bfd6_0
+2a4e1c502cad   7d8d2960de69                      "kube-apiserver --ad…"   5 days ago   Up 5 days                         k8s_kube-apiserver_kube-apiserver-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_a1e01d3ba7aabf8e0ab13fc8852afa32_0
+61f47ca5497f   k8s.gcr.io/pause:3.2              "/pause"                 5 days ago   Up 5 days                         k8s_POD_kube-scheduler-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_e541886a4cda0424b9879a78869adc51_0
+65e05c61cd43   k8s.gcr.io/pause:3.2              "/pause"                 5 days ago   Up 5 days                         k8s_POD_kube-controller-manager-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_ca502f16c3ba1aeb78dad1d84922bfd6_0
+2e33c29d6e73   k8s.gcr.io/pause:3.2              "/pause"                 5 days ago   Up 5 days                         k8s_POD_kube-apiserver-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_a1e01d3ba7aabf8e0ab13fc8852afa32_0
+7e95a5dd1915   k8s.gcr.io/pause:3.2              "/pause"                 5 days ago   Up 5 days                         k8s_POD_etcd-ip-172-31-35-222.ap-southeast-1.compute.internal_kube-system_b4e6f0b9dc6d9f541c3ffe48339218d3_0
+[root@ip-172-31-35-222 worker]# kubectl get po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-29r5j        1/1     Running   0          32m
+redis-868d64d78-4ncb9     1/1     Running   0          41m
+result-5d57b59f4b-bb8qb   1/1     Running   0          11m
+vote-94849dc97-xmjjn      1/1     Running   0          41m
+worker-dd46d7584-jpmgd    1/1     Running   1          39m
+[root@ip-172-31-35-222 worker]# 
+
+sdf;lkjglgjs
+sdf;lgjsd;lfgjsd
+sdfgsdf;lgjslkfsg
